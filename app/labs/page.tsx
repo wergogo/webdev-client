@@ -33,6 +33,12 @@ export default function Labs() {
         <li>
             <Link href="/">Kambaz</Link>
         </li>
+        <li>
+          <a href="https://github.com/wergogo/webdev-client" id="wd-github">
+            GitHub
+          </a>
+        </li>
+
       </ul>
     </div>
   );
