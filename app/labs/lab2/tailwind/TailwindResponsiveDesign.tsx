@@ -40,23 +40,52 @@ export default function TailwindResponsiveDesign() {
           </div>
           <div className="min-w-0 p-8">
             <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
-              Graduate Courses
+              Professional Courses
             </div>
             <a
               href="#"
-              className="mt-1 block text-lg md:text-2xl leading-tight font-medium text-black no-underline hover:underline"
+              className="mt-1 block text-lg leading-tight font-medium text-black no-underline hover:underline"
             >
-              Full Stack Web Development
+              Rocket Propulsion Fundamentals
             </a>
             <p className="mt-2 text-gray-500">
-              Building Kambaz from scratch with Next.js, React, and Tailwind CSS...
+              An in-depth study of the fundamentals of rocket propulsion...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="mx-auto mt-6 w-full max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl md:bg-slate-50">
+        <div className="md:flex">
+          <div className="relative md:w-48 md:shrink-0">
+            <img
+              className="h-56 w-full object-cover md:h-full md:min-h-56 md:w-48"
+              src="/images/mongodb.jpg"
+              alt="MongoDB"
+            />
+            <div className="absolute inset-0 flex items-center justify-center text-white">
+              <div className="text-2xl font-semibold">MongoDB</div>
+            </div>
+          </div>
+          <div className="min-w-0 p-8">
+            <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+              Personal Course
+            </div>
+            <a
+              href="#"
+              className="mt-1 block text-lg leading-tight font-medium text-black no-underline hover:underline"
+            >
+              Personal MongoDB Tutoring
+            </a>
+            <p className="mt-2 text-gray-500">
+              Personalized guidance for learning MongoDB fundamentals and building
+              practical database skills.
             </p>
           </div>
         </div>
       </div>
       <div
         id="wd-ai-responsive"
-        className="mx-auto mt-8 w-full max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl"
+        className="mx-auto mt-6 w-full max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl md:bg-indigo-50"
       >
         <div className="md:flex">
           <div className="relative md:w-48 md:shrink-0">
