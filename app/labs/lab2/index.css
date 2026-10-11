@@ -17,7 +17,13 @@ p#wd-id-selector-2 {
   color: white;
 }
 
-:where(#wd-lab2) h3 {
+:where(
+  #wd-lab2,
+  #wd-css-id-selectors,
+  #wd-css-class-selectors,
+  #wd-css-document-structure .wd-selector-1,
+  #wd-css-cascade
+) > h3 {
   background-color: lightblue;
   color: darkblue;
 }
