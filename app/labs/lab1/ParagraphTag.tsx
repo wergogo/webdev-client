@@ -24,7 +24,7 @@ export default function ParagraphTag() {
         tag to tell browsers to render the gaps.
       </p>
       <p id="wd-p-your-1">
-        I'm from Chongqing, China.
+        I am from Chongqing, China.
       </p>
       <p id="wd-p-your-2">
         Hope I can create a great website and web apps after this class!
